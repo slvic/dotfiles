@@ -1,0 +1,42 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run the `open default settings` command
+// from the command palette or from `Zed` application menu.
+{
+  "icon_theme": "Catppuccin Frappé",
+  "terminal": {
+    "font_family": "JetBrainsMono Nerd Font"
+  },
+  "ssh_connections": [
+    {
+      "host": "gitlab.o3.ru",
+      "projects": []
+    }
+  ],
+  "features": {
+    "edit_prediction_provider": "none"
+  },
+  "vim_mode": true,
+  "base_keymap": "JetBrains",
+  "ui_font_size": 16,
+  "buffer_font_size": 16,
+  "theme": {
+    "mode": "system",
+    "light": "One Dark Pro",
+    "dark": "Catppuccin Frappé"
+  },
+  "agent": {
+    "provider": {
+      "name": "ollama",
+      "low_speed_timeout_in_seconds": 30
+    }
+  },
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  }
+}

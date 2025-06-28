@@ -1,0 +1,25 @@
+[
+  {
+    "context": "Editor && mode == full",
+    "bindings": {
+      "ctrl-shift-enter": [
+        "assistant::InlineAssist",
+        {
+          "prompt": "Do not explain code, do not use backticks"
+        }
+      ]
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "cmd--": null
+    }
+  },
+  {
+    "context": "Editor && mode == full && VimControl && vim_mode == normal",
+    "bindings": {
+      "enter": "editor::OpenExcerpts"
+    }
+  }
+]
